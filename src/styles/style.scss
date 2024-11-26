@@ -1,0 +1,22 @@
+@use "./null";
+@use "./fonts";
+@use "./colors";
+@use "./decoration";
+
+@use "sass:math";
+@function rem($pixel) {
+  @if math.is-unitless($pixel) {
+    @return math.div($pixel, 16) + rem;
+  } @else {
+    @error 'rem(numbers)';
+  }
+}
+
+* {
+  scroll-margin-top: rem(100);
+}
+
+::selection {
+  background: var(--black);
+  color: var(--white);
+}
