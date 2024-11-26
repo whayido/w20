@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className={styles.footer}>
-        <div className="social-link">
+        <nav>
           <Link href={"https://t.me/Whayido"}>telegram</Link>
           <Link href={"mailto:dp10nice@gmail.com"}>gmail</Link>
           <Link href={"https://github.com/whayido?tab=repositories"}>
@@ -23,7 +23,7 @@ const Footer = () => {
             instagram*
           </Link>
           <Link href={"https://www.behance.net/danilpavlov1"}>behance</Link>
-        </div>
+        </nav>
 
         <div id="end">
           <p id="web">
