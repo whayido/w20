@@ -49,7 +49,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <head>
-        <link data-rh="true" rel="icon" href="/favicon.ico" />
+        <link
+          data-rh="true"
+          rel="icon"
+          href="/favicon.ico"
+          media="(prefers-color-scheme:dark)"
+        />
+        <link
+          data-rh="true"
+          rel="icon"
+          href="/white.png"
+          media="(prefers-color-scheme:light)"
+        />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#f4f4f4" />

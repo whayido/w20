@@ -1,14 +1,27 @@
 import styles from "./_hero.module.scss";
-
+import React from "react";
 export default function Hero() {
   return (
-    <main className={styles.content}>
+    <section className={styles.content}>
       <h1 className={styles.logo}>Whayido</h1>
-      <button className={styles.button}>
-        <a className={styles.link} href="https://t.me/whayido" target="_blank">
-          заказать проект
-        </a>
-      </button>
-    </main>
+      <p className={styles.desc}>web-design | frontend-developer</p>
+      <a
+        href="https://t.me/whayido"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.button}
+      >
+        заказать проект
+      </a>
+      <>
+        <input type="checkbox" className={styles.input} />
+        <input
+          type="text"
+          placeholder="letter words"
+          className={styles.input}
+        />
+      </>
+      {/*    <React.Fragment key={index}></React.Fragment> */}
+    </section>
   );
 }

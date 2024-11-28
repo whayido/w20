@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  images: { unoptimized: true },
+  basePath: "/w20",
+  /*  images: { unoptimized: true }, */
   reactStrictMode: false,
 };
 

@@ -3,20 +3,14 @@
 @use "./colors";
 @use "./decoration";
 
-@use "sass:math";
-@function rem($pixel) {
-  @if math.is-unitless($pixel) {
-    @return math.div($pixel, 16) + rem;
-  } @else {
-    @error 'rem(numbers)';
-  }
-}
-
 * {
-  scroll-margin-top: rem(100);
+  accent-color: rgb(250, 150, 0);
+  caret-color: rgb(252, 125, 146);
 }
-
-::selection {
-  background: var(--black);
-  color: var(--white);
+input {
+  border-color: solid orange;
+}
+.pov {
+  position: absolute;
+  inset: 10px 10px 100px 10px;
 }

@@ -3,5 +3,7 @@
   overflow: hidden;
 }
 .bordered {
-  border: 3px solid var(--white);
+  /* border: 3px solid var(--white); */
+  border-image: linear-gradient(to right, (--hover), (--focus) 1);
+  border-width: 1;
 }

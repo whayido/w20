@@ -9,7 +9,8 @@
   justify-content: center;
   background-blend-mode: multiply;
   backdrop-filter: blur(20px);
-  border: 0.4px solid rgba(105, 104, 104, 0.2);
+  /*  border: 0.4px solid rgba(105, 104, 104, 0.2); */
+  border: (--bordered);
   background: rgba(111, 111, 111, 0.2);
   top: 20px;
   left: 35%;
