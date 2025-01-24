@@ -1,5 +1,8 @@
 .content {
-  width: 100%;
+  width: 1630px;
+  height: 998px;
+  border-radius: 70px;
+  background-color: #eeeeee;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -39,4 +42,14 @@
   &:hover {
     color: aliceblue;
   }
+}
+.cont {
+  width: 235px;
+  height: 200px;
+  border: solid #ff93ff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }

@@ -61,6 +61,11 @@ const Footer = () => {
         </nav>
 
         <>
+          <p className={styles.desc}>
+            COYG PiELAVL pielavl PıƎLAVL Whayido iAMMUSiC 100100 8778 w20
+            version 1.0 دانيا 2024 Copyright © 2024 - v3.23.14 Vww-0.2.0 wHAyId0
+            💕💋
+          </p>
           <p id="web">
             created by Whayido self-titled name website 2024 Norilsk.
             <br />

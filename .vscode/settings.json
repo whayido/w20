@@ -10,5 +10,12 @@
       }
     }
   },
-  "cSpell.words": ["БЕГИЧЕВА", "НОРИЛЬСК", "подробнее", "УЛИЦА", "turbopack"]
+  "cSpell.words": [
+    "БЕГИЧЕВА",
+    "НОРИЛЬСК",
+    "подробнее",
+    "УЛИЦА",
+    "turbopack"
+  ],
+  "java.project.explorer.showNonJavaResources": false
 }
